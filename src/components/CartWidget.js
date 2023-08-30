@@ -5,8 +5,7 @@ const CartWidget = () => {
   return (
     <button class="header__cart-btn menu-btn" type="button">
       <p class="header__cart-price">
-        $
-        <span class="header__cart-total">0</span>
+        $<span class="header__cart-total">0</span>
       </p>
       <img
         class="header__menu-svg"

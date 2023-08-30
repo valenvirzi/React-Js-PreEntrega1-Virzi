@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <NavBar />
       <div className="spacingBar"></div>
-      <ItemListContainer greeting="Bienvenido a la mejor tienda de celulares"/>
+      <ItemListContainer greeting="Bienvenido a la mejor tienda de celulares" />
     </div>
   );
 }

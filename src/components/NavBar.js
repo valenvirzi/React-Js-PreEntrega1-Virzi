@@ -1,5 +1,5 @@
 import React from "react";
-import './NavBar.css';
+import "./NavBar.css";
 import Logo from "./Logo";
 import NavLinks from "./NavLinks";
 import CartWidget from "./CartWidget";
@@ -7,11 +7,11 @@ import CartWidget from "./CartWidget";
 const NavBar = () => {
   return (
     <header className="header">
-        <Logo />
+      <Logo />
       <nav className="nav">
         <NavLinks />
       </nav>
-        <CartWidget />
+      <CartWidget />
     </header>
   );
 };
